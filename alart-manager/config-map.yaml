@@ -24,9 +24,9 @@ data:
     receivers:
     - name: alert-emailer
       email_configs:
-      - to: claster.neo000@gmail.com    # enter your email ID
+      - to: to-email@email.com    # enter your email ID
         send_resolved: false
-        from: from-email@email.com
+        from: from-email@email.com   # enter smtp information
         smarthost: smtp.eample.com:25
         require_tls: false
     - name: slack_demo
